@@ -130,15 +130,6 @@ vlog src/*.sv
 vsim -c tb_apb -do "run -all; quit"
 ```
 
-### Using Icarus Verilog
-
-```bash
-iverilog -g2012 -o apb_sim src/*.sv
-vvp apb_sim
-gtkwave dump.vcd
-```
-
----
 
 ## Reference
 
